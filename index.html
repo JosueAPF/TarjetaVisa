@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/estilo_tabla.css">
+    <link rel="stylesheet" href="./estilos/estilos_inputs.css">
+    <title>Tarjeta Visa</title>
+</head>
+<body>
+    <div id="contendor_tarjeta">
+        <br /><br />
+        <div class="carta-box">
+            <div class="carta">
+                <div class="cara">
+                    <div id='tarjetaA'>
+                        <p id="txt_tarjeta">VISA CLASSIC CREDITO</p>
+                        <p id="contendor_nombre" >Jorgito</p>
+                        <p id="contedor_apellido">Perez</p>
+                        <p id="contedor_ID">1452 2548 1689 0026</p>
+                        <img src="img/chip.png" alt="" id="IMG_chip">
+                    </div>
+                </div>
+                <div class="cara detras">
+                    <div id='tarjetaB'>
+                        <input type='text' placeholder='000' id="CCV_input">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br /><br /><hr />
+    <div id="contendor_input">
+        <input type="text" placeholder="NOMBRE" id="input_nombre">
+        <input type="text" placeholder="APELLIDO" id="input_apellido">
+        <input type="text" placeholder="EDAD" id="input_edad">
+        <input type="text" placeholder="ID TARJETA" id="input_ID">
+    </div>
+    <div id="contendor_botonera">
+        <input type="button" value="Enviar" id="Btn_enviar">
+        <input type="button" value="Refrescar" id="Btn_Limpiar">
+    </div>
+    <br/><hr />
+    <div id="contendor_tabla">
+    </div>
+    <script type="module" src="./src/app.js"></script>
+</body>
+</html>

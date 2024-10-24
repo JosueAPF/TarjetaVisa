@@ -1,0 +1,22 @@
+#contendor_tabla{
+    padding: 20px;
+    margin: 5px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    overflow-x: auto;
+    text-align: center;
+    max-width: 2350px;
+    min-width: 550;
+}
+
+th {
+    background-color: limegreen;
+    font-size: x-large;
+}
+
+td {
+    text-align: center;
+}

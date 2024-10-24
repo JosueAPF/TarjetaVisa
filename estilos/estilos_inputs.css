@@ -1,0 +1,18 @@
+#contendor_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+#contendor_botonera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+#contendor_botonera>input{
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
